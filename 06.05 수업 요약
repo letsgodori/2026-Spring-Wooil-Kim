@@ -1,0 +1,23 @@
+                        (WorkFlow designed by FDE)
+                            -> LLM_agent_auth
+LLM LLM_agent(where to)     -> LLM_agent_leg           -> LLM_agent_verboser 
+                            -> LLM_agent_faq
+와 같이 WorkFlow가 구성된다. 
+Planner LLM으로 designed된다면 외부에 Executor 역할을 하는 LLM_Agent와 마지막에 검토하는 LLM_Evaluator가 추가된다. 
+= Agentic AI -> 아직 FDE 모델보다는 성능, 성과가 덜하지만 비용 측면에서 우위가 있다. 
+
+RAG(Retrieval_Augmented Generation): 검색 증강 생성 
+–> 내부 데이터베이스 or 문서를 먼저 검색 후 그 내용을 기반으로 답변하도록 하는 기술, 할루시네이션을 줄여줌
+Embeding: 자연어나 이미지를 AI가 계산할 수 있도록 벡터로 변환하는 기술
+Fine-Tuning(미세조정): 이미 만들어진 먀 모델에 우리 회사의 데이터를 추가로 학습시켜 가중치를 바꾸는 기술
+토큰: 훈련 시 데이터 단위
+LLM 가중치 조정 과정: Pre-training(Base Model) -> Fine-Tuning(사용자 상세 설정) -> RLHF(인간 피드백 및 윤리 기준에 맞게 정렬)
+Overfitting: 훈련 데이터에만 너무 과하게 맞춰져서 실제 데이터에 대해서는 예측력이 낮아진 상태
+API: “카카오톡 아이디로 로그인하기”와 같이 서로 다른 프로그램의 데이터와 기능을 연결해주는 통로
+SaaS: 구독형 소프트웨어 서비스 모델
+Client vs Server: 사용자 기기 vs 요청 처리 대형 컴퓨터
+클라우드 컴퓨팅: 컴퓨터 서버를 구축 직접 구축하는 게 아니라 외부 데이터 센터 회사로부터 필요한 만큼 인터넷을 통해 사용하는 것
+On-Premises: 클라우드 서비스를 이용치 않고 자체적으로 서버와 소프트웨어를 구축하는 인프라 방식 -> 보안과 커스터마이징에 좋음
+Back-end: 화면 뒤 데이터 처리와 서버 운영 영역
+Front-end: 사용자가 보고 조작하는 부분을 보수, 개발하는 영역
+UI = User Interface, UX = User Experience, Legacy = 신기술 접목시키기 전 기존 시스템
