@@ -63,7 +63,7 @@ import random
 # ==========================================
 # ⚙️ 1. 글로벌 환경 설정 및 영구 메모리 장부
 # ==========================================
-DART_API_KEY = '7e802469892545c94c9a60f86c01838f4c442770' 
+DART_API_KEY = 'KEY를 넣으시오' 
 dart = OpenDartReader(DART_API_KEY)
 
 RECOMMENDED_STOCKS = []   
